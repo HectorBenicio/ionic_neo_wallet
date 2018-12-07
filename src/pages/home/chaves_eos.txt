@@ -1,0 +1,19 @@
+
+
+andrelopes12
+
+Owner
+Public key:	EOS4uPXzQpn73JpD6NQHumg68t4B2hnbDKwiUX8BuFb3114VfW6fj	
+Private key	5KkM8ZLbLvb9UHEJscdq1RaqJLLJ7HffTWCbSZrEs81UsUNznJn
+
+
+
+Active
+Public key	EOS84V5aG7dNMebeLxoknHa6dLu8zY8Q9jBHY8N9DVYKE5gbfwETQ	
+Private key	5J17bY3FjPjQ4LN7UEEo5UqdpV9w1vS66335aeWMzuZBQDCPRAF
+
+
+http://jungle.eosgen.io:80
+
+
+http://jungle.eosgen.io:80/v1/chain/get_info

@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Merit Money Pitang
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row justify-content-center aling-items-center>  
+      <ion-label text-center>
+        <h4>{{account}}</h4>
+        <h4>{{balance}}</h4>
+        <h3>{{balanceUSD}} UDS</h3>
+      </ion-label>
+    </ion-row>
+    <ion-row>
+      <button (click)="send()"  ion-button full>Send</button>
+      <button ion-button full (click)="goReceive()">Receive</button>
+    </ion-row>
+  </ion-grid>
+</ion-content>
