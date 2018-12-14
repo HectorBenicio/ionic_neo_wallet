@@ -13,9 +13,10 @@ import { AccountPage } from "../pages/account/account";
 import { SendPage } from "../pages/send/send";
 import { ReceivePage } from "./../pages/receive/receive";
 import { EosProvider } from "../providers/eos/eos";
+import { TransactionPage } from "../pages/transaction/transaction";
 
 @NgModule({
-  declarations: [MyApp, HomePage, AccountPage, SendPage, ReceivePage],
+  declarations: [MyApp, HomePage, AccountPage, SendPage, ReceivePage, TransactionPage],
   imports: [
     BrowserModule,
     HttpClientModule,
@@ -23,7 +24,7 @@ import { EosProvider } from "../providers/eos/eos";
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
-  entryComponents: [MyApp, HomePage, AccountPage, SendPage, ReceivePage],
+  entryComponents: [MyApp, HomePage, AccountPage, SendPage, ReceivePage, TransactionPage],
   providers: [
     StatusBar,
     SplashScreen,
@@ -31,4 +32,4 @@ import { EosProvider } from "../providers/eos/eos";
     EosProvider, BarcodeScanner
   ]
 })
-export class AppModule {}
+export class AppModule { }

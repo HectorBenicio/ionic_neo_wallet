@@ -3,6 +3,7 @@ import { SendPage } from './../send/send';
 import { EosProvider } from './../../providers/eos/eos';
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { TransactionPage } from '../transaction/transaction';
 
 @Component({
   selector: 'page-home',
@@ -50,5 +51,9 @@ export class HomePage {
 
   goReceive(){
     this.navCtrl.push(ReceivePage, {account: this.navParams.get("account")});
+  }
+
+  goTransaction(){
+    this.navCtrl.push(TransactionPage, {account: this.navParams.get("account")});
   }
 }

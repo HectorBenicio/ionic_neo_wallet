@@ -7,6 +7,14 @@ Public key:	EOS4uPXzQpn73JpD6NQHumg68t4B2hnbDKwiUX8BuFb3114VfW6fj
 Private key	5KkM8ZLbLvb9UHEJscdq1RaqJLLJ7HffTWCbSZrEs81UsUNznJn
 
 
+blockchain12
+Public key:	EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV	
+Private key	EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+
+Active
+Active Key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+Owner Key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+
 
 Active
 Public key	EOS84V5aG7dNMebeLxoknHa6dLu8zY8Q9jBHY8N9DVYKE5gbfwETQ	

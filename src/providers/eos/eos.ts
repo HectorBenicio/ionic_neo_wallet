@@ -31,9 +31,16 @@ setCredentials(account: string, key: string){
   this.key = key;
 }
 
-  getBalance() {
-    return this.eos.getCurrencyBalance('eosio.token', this.account, 'EOS');
-  }
+getBalance() {
+  return this.eos.getCurrencyBalance('eosio.token', this.account, 'EOS');
+}
+
+getTransactions(account: string) {
+  debugger;
+  return this.eos.getCurrencyBalance('eosio.token', "andrelopes12", 'EOS');
+
+  //return this.eos.g('eosio.token', account, 'EOS');
+}
 
   transfer(toAccount: string, value: number) {
     const options = {
